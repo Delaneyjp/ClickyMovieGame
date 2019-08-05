@@ -8,6 +8,8 @@ const Card = props => (
             <img alt={props.name} src={props.image} />
         </div>
     </div>
+
+
 );
 
 
