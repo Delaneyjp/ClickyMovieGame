@@ -1,0 +1,17 @@
+.title {
+font-size: 50px;
+font-weight: bolder;
+margin-bottom: -15px;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.308);
+    border-bottom: 2px solid black;
+}
+
+.scores {
+    margin-top: -15px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}

@@ -3,7 +3,7 @@ import "./Wrapper.css";
 
 const Wrapper = props =>
     <div className="wrapper">
-        <div className="container">
+        <div className="container-fluid">
             <div className="row justify-content-md-center">
                 {props.children}
             </div>;
