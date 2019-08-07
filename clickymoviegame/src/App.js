@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import cards from "./cards.json";
 import "./App.css";
 
+// Sets default state of cards and header items
 class App extends Component {
 
   state = {
@@ -54,13 +55,13 @@ class App extends Component {
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}>Clicky Movie Game</Header>
         {this.state.cards.map(card => (
-
           <Card
             clickCount={this.clickCount}
             id={card.id}
             key={card.id}
             image={card.image}
           />
+
         ))}
       </Wrapper>
     );
